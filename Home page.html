@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloodAid Bangladesh</title>
+    <link rel="stylesheet" href="styles.css" type="text">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .bg-dark {
+            background-color: #343a40 !important;
+        }
+        .text-white {
+            color: white !important;
+        }
+        .tagline {
+            font-size: 1.2em;
+            color: #ffcc00;
+        }
+        .hero {
+            background-image: url('your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            padding: 150px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero p {
+            font-size: 1.8em;
+            position: relative;
+            z-index: 1;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .hero a {
+            position: relative;
+            z-index: 1;
+        }
+        .container h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-align: center;
+            color: #007bff;
+            text-transform: uppercase;
+        }
+        .container p {
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        ul li {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 1.2em;
+            color: #007bff;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-success {
+            background-color: #28a745;
+            border: none;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card-title {
+            font-size: 1.5em;
+            color: #ffcc00;
+        }
+        footer {
+            background: #222;
+            color: #aaa;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <!-- Common Header -->
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="logo.png" alt="FloodAid Bangladesh" height="100">
+                    <span class="h4 ml-2">FloodAid Bangladesh</span>
+                    <p class="tagline">Together, We Can Rebuild</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <nav class="nav">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                        <a class="nav-link text-white" href="volunteers.html">Volunteers</a>
+                        <a class="nav-link text-white" href="donation.html">Donation</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Page Content -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Apply as a Volunteer</h1>
+                <p>Join us in our mission to help those affected by floods</p>
+                <a href="volunteer_registration.html" class="btn btn-primary btn-lg">Apply Now</a>
+            </div>
+        </section>
+        <section class="container my-5">
+            <h2>Our Mission and Vision</h2>
+            <p>Our mission is to provide immediate relief and long-term support to flood-affected communities in Northern Bangladesh...</p>
+            <ul>
+                <li>Compassion</li>
+                <li>Integrity</li>
+                <li>Dedication</li>
+            </ul>
+            <a href="donation.html" class="btn btn-success">Make a Donation</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Contact us: Phone Number, Email, Address</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p>© 2024 FloodAid Bangladesh</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
